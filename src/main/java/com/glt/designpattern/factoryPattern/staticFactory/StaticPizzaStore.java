@@ -7,11 +7,6 @@ import com.glt.designpattern.bean.pizza.factoryMethod.Pizza;
  */
 public class StaticPizzaStore {
 
-    /**
-     * 构造器需要将简单工厂传进来
-     *
-     * @param simpleFactory
-     */
     public StaticPizzaStore() {}
 
     public Pizza orderPizza(String type) {

@@ -6,7 +6,7 @@ import com.glt.designpattern.bean.pizza.factoryMethod.GreekPizza;
 import com.glt.designpattern.bean.pizza.factoryMethod.Pizza;
 
 /**
- * 创建比萨的简单工厂
+ * 创建比萨的静态工厂
  */
 public class StaticFactory {
     public static Pizza createPizza(String type){

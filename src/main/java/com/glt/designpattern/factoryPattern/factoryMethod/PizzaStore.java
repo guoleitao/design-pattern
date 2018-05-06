@@ -21,7 +21,6 @@ public abstract class PizzaStore {
         return pizza;
     }
 
-
     /**
      * a.定义为abstract类型的抽象方法，子类必须实现自己的createPizza方法。
      * @param type
@@ -40,12 +39,6 @@ public abstract class PizzaStore {
 //            pizza = new BeiJingPizza();
 //        }else if ("sh".equals(type)){
 //            pizza = new ShangHaiPizza();
-//        }else if("cheese".equals(type)){
-//            pizza = new CheesePizza();
-//        }else if ("greek".equals(type)){
-//            pizza = new GreekPizza();
-//        }else if ("clam".equals(type)){
-//            pizza = new ClamPizza();
 //        }
 //        return pizza;
 //    }
