@@ -1,6 +1,6 @@
 package com.glt.designpattern.factoryPattern.simpleFactory;
 
-import com.glt.designpattern.bean.Pizza;
+import com.glt.designpattern.bean.pizza.factoryMethod.Pizza;
 
 /**
  * 比萨店

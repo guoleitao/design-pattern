@@ -1,11 +1,6 @@
 package com.glt.designpattern.factoryPattern.factoryMethod;
 
-import com.glt.designpattern.bean.BeiJingPizza;
-import com.glt.designpattern.bean.CheesePizza;
-import com.glt.designpattern.bean.ClamPizza;
-import com.glt.designpattern.bean.GreekPizza;
-import com.glt.designpattern.bean.Pizza;
-import com.glt.designpattern.bean.ShangHaiPizza;
+import com.glt.designpattern.bean.pizza.factoryMethod.Pizza;
 
 /**
  * 抽象比萨店，所有比萨店需要继承此类

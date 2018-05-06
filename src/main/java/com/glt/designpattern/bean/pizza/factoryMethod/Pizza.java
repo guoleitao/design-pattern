@@ -1,4 +1,4 @@
-package com.glt.designpattern.bean;
+package com.glt.designpattern.bean.pizza.factoryMethod;
 
 /**
  * 比萨接口，所有比萨实现此接口

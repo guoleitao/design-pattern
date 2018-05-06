@@ -1,9 +1,9 @@
-package com.glt.designpattern.bean;
+package com.glt.designpattern.bean.pizza.factoryMethod;
 
-public class BeiJingPizza implements Pizza {
+public class ClamPizza implements Pizza {
     @Override
     public void prepare() {
-        
+
     }
 
     @Override

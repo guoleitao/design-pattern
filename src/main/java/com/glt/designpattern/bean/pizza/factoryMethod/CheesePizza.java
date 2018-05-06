@@ -1,4 +1,4 @@
-package com.glt.designpattern.bean;
+package com.glt.designpattern.bean.pizza.factoryMethod;
 
 public class CheesePizza implements Pizza {
     @Override

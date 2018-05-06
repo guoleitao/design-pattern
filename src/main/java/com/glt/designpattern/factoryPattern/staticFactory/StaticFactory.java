@@ -1,9 +1,9 @@
 package com.glt.designpattern.factoryPattern.staticFactory;
 
-import com.glt.designpattern.bean.CheesePizza;
-import com.glt.designpattern.bean.ClamPizza;
-import com.glt.designpattern.bean.GreekPizza;
-import com.glt.designpattern.bean.Pizza;
+import com.glt.designpattern.bean.pizza.factoryMethod.CheesePizza;
+import com.glt.designpattern.bean.pizza.factoryMethod.ClamPizza;
+import com.glt.designpattern.bean.pizza.factoryMethod.GreekPizza;
+import com.glt.designpattern.bean.pizza.factoryMethod.Pizza;
 
 /**
  * 创建比萨的简单工厂
