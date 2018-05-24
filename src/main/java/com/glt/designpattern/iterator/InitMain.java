@@ -13,6 +13,15 @@ public class InitMain {
          */
 
 
+        ConcreteAggregate aggregate = new ConcreteAggregate();
+
+        Iterator iterator = aggregate.createIterator();
+
+        while (iterator.hasNext()) {
+            Object next = iterator.next();
+            System.out.println(next);
+        }
+
 
     }
 }
