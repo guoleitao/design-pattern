@@ -19,14 +19,15 @@ public class InitMain {
          * 有三个动作：投币，退币，点击出货
          */
 
+        //创建一个有三个商品的自动售货机
         GoodsMachine goodsMachine = new GoodsMachine(3);
-        goodsMachine.insertMoney();
-        goodsMachine.soldGoods();
-        goodsMachine.insertMoney();
-        goodsMachine.soldGoods();
-        goodsMachine.insertMoney();
-        goodsMachine.soldGoods();
-        goodsMachine.insertMoney();
+        goodsMachine.insertMoney();//投币
+        goodsMachine.soldGoods();//点击出货
+        goodsMachine.insertMoney();//投币
+        goodsMachine.soldGoods();//点击出货
+        goodsMachine.insertMoney();//投币
+        goodsMachine.soldGoods();//点击出货
+        goodsMachine.insertMoney();//投币
 
     }
 }

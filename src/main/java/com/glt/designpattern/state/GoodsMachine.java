@@ -14,7 +14,6 @@ public class GoodsMachine {
     //售货机初始为售罄状态
     private State state = soldOutGoods;
 
-
     GoodsMachine(int count) {
         hasMoney = new HasMoney(this);
         noMoney = new NoMoney(this);
@@ -23,17 +22,15 @@ public class GoodsMachine {
         if (count > 0) {
             this.state = noMoney;
         }
-
     }
 
-    void insertMoney(){
+    void insertMoney() {
         state.insertMoney();
     }
 
-    void soldGoods(){
+    void soldGoods() {
         state.soldGoods();
     }
-
 
     public State getHasMoney() {
         return hasMoney;

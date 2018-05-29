@@ -2,7 +2,6 @@ package com.glt.designpattern.state;
 
 /**
  * 自动售货机状态接口
- *
  */
 public interface State {
 
@@ -20,6 +19,4 @@ public interface State {
      * 出货
      */
     void soldGoods();
-
-
 }

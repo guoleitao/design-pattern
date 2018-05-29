@@ -1,5 +1,8 @@
 package com.glt.designpattern.state;
 
+/**
+ * 售罄状态
+ */
 public class SoldOutGoods implements State {
     GoodsMachine goodsMachine;
 

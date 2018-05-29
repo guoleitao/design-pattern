@@ -1,5 +1,8 @@
 package com.glt.designpattern.state;
 
+/**
+ * 未投币状态
+ */
 public class NoMoney implements State {
     GoodsMachine goodsMachine;
 
@@ -22,5 +25,4 @@ public class NoMoney implements State {
     public void soldGoods() {
         System.out.println("未投币状态，不能出货");
     }
-
 }
