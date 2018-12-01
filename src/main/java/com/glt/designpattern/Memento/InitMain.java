@@ -9,6 +9,7 @@ public class InitMain {
          * 目标
          *  存储关键对象的重要状态
          *  维护关键对象的封装
+         *
          */
 
         Client c = new Client();
