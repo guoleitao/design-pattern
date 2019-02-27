@@ -14,5 +14,17 @@ public class InitMain {
          *  与工厂模式区别
          *      工厂模式创建对象只有一个步骤，生成器模式有多个步骤
          */
+
+        Builder builder = new Builder();
+
+        Meal breakfast = builder.breakfast();
+        breakfast.takeOrder();
+        System.out.println();
+        Meal lunch = builder.lunch();
+        lunch.takeOrder();
+        System.out.println();
+        Meal dinner = builder.dinner();
+        dinner.takeOrder();
+        System.out.println();
     }
 }
