@@ -1,5 +1,8 @@
 package com.glt.designpattern.interpreter;
 
+/**
+ * 基础表达式
+ */
 public class VarExpression implements Expression {
 
     private String exp;

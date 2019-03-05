@@ -1,5 +1,8 @@
 package com.glt.designpattern.interpreter;
 
+/**
+ * And语法类
+ */
 public class AndExpression implements Expression {
 
     private VarExpression exp1;
