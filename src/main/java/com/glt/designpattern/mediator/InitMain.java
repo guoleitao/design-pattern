@@ -13,5 +13,14 @@ public class InitMain {
          *  如果系统设计不当， 会造成中介者对象变的过于复杂
          *
          */
+
+        Mediator mediator = new Mediator();
+
+        Landlord landlord = new Landlord(mediator);
+        Renter renter = new Renter(mediator);
+
+        landlord.trade(1000);
+        renter.trade(1000);
+
     }
 }
