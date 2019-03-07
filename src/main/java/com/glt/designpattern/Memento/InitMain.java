@@ -14,12 +14,16 @@ public class InitMain {
 
         Client c = new Client();
 
-        c.startGame();
+        c.startGame(null);
         c.player("1");
         c.player("2");
-        c.exitGame();
+        Memento memento = c.exitGame();//退出
+        ManageMemento.setMemento(memento);//存档
 
-        c.startGame();
-        c.player("5");
+
+        Client c2 = new Client();
+        c2.startGame(ManageMemento.getMemento());//加载档案
+        c2.showPlayer();
+        c2.player("5");
     }
 }

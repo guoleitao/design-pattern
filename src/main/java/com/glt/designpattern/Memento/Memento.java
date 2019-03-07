@@ -1,5 +1,8 @@
 package com.glt.designpattern.Memento;
 
+/**
+ * 备忘录类
+ */
 public class Memento {
     private String status;
 
